@@ -30,25 +30,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+***The biggest difference is that .map creates a new array.
+
 2. What is the difference between a function and a method?
+
+***A function is code that can be given parameters to perform actions and sometimes return data.  A method is specific code that is the same as a function but is usually associated with an object.
 
 3. What is closure?
 
+***Closure is an inner function that gives you access to an outer function, it's enclosed in the lexical environment.
+
 4. Describe the four rules of the 'this' keyword.
 
+***The four rules of the 'this' keyword are:
+    1)  If the function is called by the 'new' keyword then 'this' refers to the new object.  Also known as a constructor function.
+    2)  If the function is called by .call, .apply or .bind is used then 'this' is explicitly defined as the first argument passed to the method.
+    3)  If the function is called by a preceding dot(example: functionName.speak()) this refers to what is left of the dot eg. functionName <= this. 
+    4)  If the function is a basic main function(not inside another function) it's conatined in the global scope and this refers to the mian window object.
+
 5. Why do we need super() in an extended class?
+
+***Super() is used to inherit all properties of the parent class so that new properties can be added to the child class that won't affect the parent class.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
+- [x] Implement the project on your Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
