@@ -40,6 +40,8 @@ function greeting(first_name, last_name, cb) {
 
 // Explanation: 
 
+// ***nestedFunction can access the internal variable because it's being called from inside myFunction.  It doesn't matter where it is in the code it matters where it's being called from.
+
 
 const external = "I'm outside the function";
 
